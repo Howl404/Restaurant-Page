@@ -47,10 +47,14 @@ table {
 	border-spacing: 0;
 }
 
+
+
+
 body {
   display: flex;
   flex-direction: column;
   height: 100vh;
+  background-color: blue;
 }
 
 header {
@@ -74,10 +78,19 @@ header div:hover {
 
 #content {
   flex: 1;
-  background-color: black;
+  background-color: grey;;
+  max-width: 850px;
+  padding: 3rem;
+  margin: 2rem auto;
 }
 
 footer {
   padding: 2rem;
   background-color: grey;
+}
+
+.face {
+  position: relative;
+  border-radius: 16px;
+
 }
