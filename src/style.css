@@ -168,6 +168,24 @@ header div:hover {
 footer {
   padding: 2rem;
   background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer img {
+  height: 50px;
+  margin-right: 1rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+  border-bottom: 2px solid grey;
+}
+
+footer a:hover {
+  border-bottom: 2px solid black;
 }
 
 h1 {
