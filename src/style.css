@@ -256,3 +256,11 @@ p {
 .item-price {
   margin-right: 2rem;
 }
+
+.info-div {
+  display: flex;
+}
+
+.info-div p {
+  margin: 1rem;
+}

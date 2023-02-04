@@ -1,6 +1,7 @@
 import "./style.css";
 import { createHome } from "./home";
 import { createMenu } from "./menu";
+import { createContact } from "./contact";
 
 const cleanContainer = function () {
   const content = document.getElementById("content");
@@ -21,4 +22,9 @@ document.querySelector(".home").addEventListener("click", function () {
 document.querySelector(".menu").addEventListener("click", function () {
   cleanContainer();
   createMenu();
+});
+
+document.querySelector(".contact").addEventListener("click", function () {
+  cleanContainer();
+  createContact();
 });
